@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+p{
+	color:grey
+}
+.head{
+	background-color:black;
+	color:white;
+}
