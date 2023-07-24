@@ -4,10 +4,50 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<p style="color:grey;">List of all transactions</p>
+	<table class="table">
+      <thead>
+        <tr style="background-color:black;color:white">
+          <th>#</th>
+          <th>From</th>
+		  <th> To</th>
+          <th class="text-end">Amount($)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+		  <td>Otto</td>
+          <td class="text-end">1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+		  <td>Thornton</td>
+          <td class="text-end">1500</td>
+        </tr>
+        <tr>
+           <td>3</td>
+          <td>Jack</td>
+		  <td>Jhon</td>
+          <td class="text-end">2000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+			<td></td>
+			<td></td>
+          <td class="fw-bold">Total</td>
+          <td class="text-end fw-bold" id="total">$210.00</td>
+        </tr>
+      </tfoot>
+    </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
