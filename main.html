@@ -3,14 +3,15 @@
 <html>
 
 <head>
-<!-- 	<link rel="stylesheet" href="styles.css"> -->
+	<link rel="stylesheet" href="styles.css"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<caption class="cap">List of all transactions</caption>
-	<table class="table">
+<div class="table-responsive">
+	<table class="table table-hover">
+		<caption class="cap">List of all transactions</caption>
       <thead class="table-dark">
         <tr class="head">
           <th>#</th>
@@ -41,13 +42,12 @@
       </tbody>
       <tfoot class="table-light">
         <tr>
-			<td></td>
-			<td></td>
-          <td class="fw-bold" id="total">Total</td>
+          <td class="fw-bold" id="total" colspan="3">Total</td>
           <td class="text-end fw-bold" id="total">4000</td>
         </tr>
       </tfoot>
     </table>
+	<div>
     <script type="text/javascript" src="./script.js">
 </script>
 
